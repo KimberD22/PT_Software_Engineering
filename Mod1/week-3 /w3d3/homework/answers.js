@@ -45,3 +45,25 @@
     const ourClass = [["Lisa","desk1",["Paw Patrol", "SpongeBob"]], ["Billy", "desk2",["Peppa Pig", "Shaun the Sheep"]],["Sarah","desk3",["WonderPets", "Hey Arnold"]],
         ["Ben","desk5",["Rugrats", "Sesame Street"]], ["Jill", "desk6",["Shimmer & Shine"]]]
         console.log(ourClass)
+
+//
+//  TAKE IT EASY //
+//
+//  1. Make an array that holds all the colors of the rainbow. 
+    const rainbowColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+        console.log(rainbowColors)
+//  2. Write a code that will access "blue"from the rainbow array.
+    console.log(rainbowColors[4])
+
+//  3. Make an object that is called your name and hold the information about your favorite food, a hobby, the name of the town that you live in currently, and your favorite datatype.
+    const Kimmy = {
+
+        faveFood: "pizza",
+        myHobby: "Gardening",
+        myCity: "Columbus",
+        favDatatype: "objects",
+    }
+    console.log(Kimmy)
+    console.log(Kimmy.myHobby)
+
+    
