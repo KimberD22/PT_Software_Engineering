@@ -166,4 +166,22 @@ const bondFilms = [
     { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
   ];
 
-  Console.log(bondFilms)
+  const bondTitle = []
+  for (i = 0; i < bondFilms.length; i++); 
+    bondTitle.push(bondFilms[i].title);
+    console.log(bondTitle)
+  
+  const oddBonds = []
+  for (i = 0; i < bondFilms.length; i++);
+   if (bondFilms[i].year % 2 !== 0)
+   oddBonds.push(bondFilms[i].year)
+   console.log(oddBonds)
+
+   //terminal is not acting right. 
+   // my answers work on another sandbox 
+   // I will close this terminal down and start from scratch
+   //but only after homework is done
+   // i am stuck on the bond gross question
+   //want to use parseFloat because to the decimal and need to 
+   //remove the $ and , and possibly round up 
+   
