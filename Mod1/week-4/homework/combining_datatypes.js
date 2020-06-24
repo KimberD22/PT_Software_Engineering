@@ -63,13 +63,16 @@ const apartmentBuilding = [['Rex', 'Jose', 'Betty', 'Jon', 'Ellie']
   
 
 //3.  Create a function powerButton that returns a function called options - options should console.log a simple message like select a song. Call that inner function
-  const powerButton = () => {
-      const options = () => {
-          console.log('select a song');
-      } 
+  const powerButton = function() {
+           // options = function() {
+                console.log("select a song");
+            
+      }; 
           
-          return options();
-      powerButton()
-      console.log(powerButton())
+    powerButton();
+      
+// this isn't working as I thought it would. don't know what I am doing wrong. can only get it to work if I comment out options()
         
-  }
+    
+
+
