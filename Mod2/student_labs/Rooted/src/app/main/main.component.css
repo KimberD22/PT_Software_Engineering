@@ -1,0 +1,31 @@
+.text-box {
+    position: absolute;
+    top:120%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    
+}
+
+.btn-primary
+{  height: 30px;
+    margin: 5px;
+    
+}
+
+.btn-secondary
+{   height: 30px;
+    margin: 5px;
+    
+    
+}
+

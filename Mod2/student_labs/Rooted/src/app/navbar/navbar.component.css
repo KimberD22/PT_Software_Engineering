@@ -1,0 +1,22 @@
+
+.navbar-header {
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    background-color: #CCFF38;
+ 
+   
+}
+.announcement {
+    transform: translateX(50%);
+    position: absolute;
+    background-color:#3AC623 ;
+}
+
+.img-container {
+    text-align: center;
+    display: block;
+}
