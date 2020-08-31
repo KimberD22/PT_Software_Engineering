@@ -1,0 +1,47 @@
+.flex-container{    display: flex;}.flex-container > div{    display: inline-block;    position: relative;    margin: 1%;   width: 23%;    height: 400px;    background-color: lightgrey;}
+
+div {
+    text-align: center;
+}
+
+#sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: lightgray;
+}
+.flex-container{
+    display: flex;
+    margin-left: 160px;
+    float: left;
+}
+.flex-container > div{
+    margin-left: 160px;
+    padding: 0px 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    width: 23%;
+    height: 400px;
+    background-color: lightgrey;
+}
+#website-visitors{
+    display: inline-block;
+    position: relative;
+    margin-left: 172px;
+    width: 85%;
+    height: 350px;
+    background-color: lightgrey;
+}
+#sidebar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightgrey;
+  padding-top: 20px;
+}
