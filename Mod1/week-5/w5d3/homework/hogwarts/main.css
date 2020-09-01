@@ -2,3 +2,25 @@ body {
     background-color: burlywood;
     text-align: center;
 }
+.owl {
+    font-family: fantasy;
+}
+.secret {
+    opacity: 0.5;
+}
+li {
+    list-style: none;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+table {
+    border: 1px solid 
+}
+th {
+    border: 1px solid;
+}
+td {
+    border: 1px solid
+}
