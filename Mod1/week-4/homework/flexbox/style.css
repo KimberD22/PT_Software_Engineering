@@ -1,0 +1,12 @@
+section {
+    background: blueviolet;
+
+    display: flex;
+
+}
+div {
+    flex-basis: 200px;
+    padding: 1em;
+    box-sizing: border-box;
+    border: 1px solid black;
+}

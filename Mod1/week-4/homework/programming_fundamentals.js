@@ -1,12 +1,13 @@
 // W4D2 Homework //
+
 /*Section 1: Programming Fundamentals
-Create a file called programming_fundamentals.js inside your homework folder for today.
+Create a file called programming_fundamentals.js inside your homework folder for today. Done :)
+
 Copy the questions that you are answering into your file (and comment it out) and write the answer below the question.
+
 Common programming principles
 As you are starting out, there may be things you are really worried about and other big gotchas that you aren't yet aware that are gotchas!
-
 Read this article on programming principles (Links to an external site.), focus on the following nine:
-
 Write a ~1 sentence summary for each one
 
 DRY
@@ -41,11 +42,11 @@ The principal that suprised me was avoid premature optimization, I would have be
 
 Which one is currently giving you the most struggle?
 Currently, just trying to KISS. I think as a new developer you tend to code everything out. I will get better at using functions to do the heavy lifting and clean up the code. 
-
 */
-Commenting Code
-Comment each line of this code and describe what it is doing. Feel free to run this code and add console.logs to help you figure it out:
 
+/*Commenting Code
+Comment each line of this code and describe what it is doing. Feel free to run this code and add console.logs to help you figure it out:
+*/
 // creating a constant variable called f (unmutable) that is equal to l arrow function
 const f = l => {
   // creates a let variable called es which is (mutable) and equal to 0, p variable is equal to 0, c variable is equal to 1, and n variable is equal to 0
@@ -82,18 +83,21 @@ const f2 = (limit) => {
   return evenSum;
 }
 
-
 console.log(f2(55))
+
 /*Answer with comments:
 
 In keeping with one of our programming principals (write code for the maintainer): What would have been a more semantic name for this function (hint: this is a problem we had for either lab or hw and is considered a classic ) - are there any other variable names or things that would make this code easier to read and understand?
-fibonacciSequence
+Compounding program with even output
 
 If you started a new job and your project was to expand the functionality of this function by allowing a second argument and then based on that second argument, returning the sum of even or odd numbers, which code would you rather start working with f or f2?
-I would definitely want to work on f2 and not f. 
+I would definitely want to work on f2 (2nd code) and not f (1st code). 
+I would be a horrible way to start a new job. I can see why the principles are so important. 
 
 Finally, the 'shorter' code style doesn't use semi-colons, except for the fourth line. Remove this semi-colon! Run the code, is this semi-colon necessary?
-SyntaxError: Unexpected identifier
+n = c + p
+        ^^^^^
 
-
+SyntaxError: Invalid left-hand side in assignment 
+Yes, it is necessary, when I put it back in and run the code I get output without syntaxerror */
 
